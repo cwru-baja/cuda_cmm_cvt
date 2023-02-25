@@ -22,7 +22,7 @@
 #define FR_TOL 1e-6f
 #define FR_STEPS 100
 
-#define KAPPA_DIVISIONS 60000
+#define KAPPA_DIVISIONS 6000
 
 #ifdef PYBIND11
 #define PROGRESS_BAR if (index == blockDim.x * gridDim.x - 1) \
